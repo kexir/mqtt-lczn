@@ -22,6 +22,7 @@ import json
 import paho.mqtt.client as mqtt
 import time
 from datetime import datetime
+from dateutil import parser
 import sensor
 import sys
 sys.path.insert(0, '/Users/lyuqi/Downloads/DR/mqtt-lczn/common')
@@ -42,9 +43,28 @@ def on_connect(mqttc, obj, flags, rc):
                 print("Connected to %s:%s" % (mqttc._host, mqttc._port))
                 break
     return rc
+    
+
+def on_message(mqttc, obj, msg):
+    print("message received: "+msg.topic+" "+str(msg.payload))
+    message = json.loads(msg.payload)
+    timestamp_list = message['timestamp']
+    for i in range(len(timestamp_list)):
+        timestamp = timestamp_list[i]
+        time = parser.parse(timestamp)
+        print time
+    coordinate = message['coordinate']
+    s = ""+str(coordinate[0])+","+str(coordinate[1])
+    print s
+    channel = message['channel']
+    print channel
 
 def on_publish(mqttc, obj, mid):
-    print("client publish obs: "+str(mid))
+    print("mid: "+str(mid))
+
+
+def on_subscribe(mqttc, obj, mid, granted_qos):
+    print("Subscribed: "+str(mid)+" "+str(granted_qos))
 
 def on_log(mqttc, obj, level, string):
     print(string)
@@ -55,26 +75,31 @@ def on_log(mqttc, obj, level, string):
 # id parameter empty will generate a random id for you.
 mqttc = mqtt.Client()
 mqttc.on_connect = on_connect
+mqttc.on_message = on_message
 mqttc.on_publish = on_publish
+mqttc.on_subscribe = on_subscribe
 mqttc.on_log = on_log
 
 rc = mqttc.connect(SERVER_HOST, SERVER_PORT, KEEP_ALIVE)
+mqttc.subscribe("localization/result/one", 0)
+
 
 msg_id = 0
 while rc == 0:
-    # obs = sensor.read_static()
+    obs = sensor.read_static()
     channel = "one"
-    obs = sensor.read_dynamic(msg_id)
+    # obs = sensor.read_dynamic(msg_id)
     msg_id = msg_id+1
     timestamp = []
     timestamp.append(datetime.now().__str__())
     payload = {}
-    payload['msg_id'] = msg_id
     payload['observation'] = obs
     payload['channel'] = channel
     payload['timestamp'] = timestamp
-    payload['ALG'] = "MLE"
-    mqttc.publish("localization/observation", json.dumps(payload), qos=0)
-    time.sleep(60)
+    (rc, mid) = mqttc.publish("localization/observation", json.dumps(payload), qos=0)
+    time.sleep(120)
+    rc = mqttc.loop() # receive info
+
+
 
 mqttc.disconnect()

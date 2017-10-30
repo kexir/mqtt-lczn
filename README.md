@@ -1,36 +1,47 @@
 This project will simulate localization process in EEB building
 
-Steps:
+Project Structure:
+mqtt-client  
+	Function: publish RF observations to mqtt-server every 60s. (fake random data read from sensor.py) 
+	Payload have 4 attributes: message id(‘msg_id’),  observation(3 RF obs), channel id(client id),  timestamp(time of sending this request), ALG(which estimate algorithm is used)
 
-step1: start redis server. If you are using MAC, simply type redis-server in terminal
+mqtt-server 
+	Function: estimate location received from mqtt-client, and then publish estimate result 
+	Payload have 4 attributes: message id(‘msg_id’), channel id(client id),  coordinate(estimate location), timestamp(time of finish estimating observation)
 
-step2: start mqtt server. cd mqtt-server, then type python mqtt-server.py
- 
-step3: start location publisher. cd mqtt-client, then type python mqtt-client.py
-  
-step4: start to subscribe estimate result. cd lczn-server, then type python mqtt-subscribe.py 
+lczn-server 
+	Function: receive estimate location from mqtt-server, send it to browser or mobile via socket.io 
+	Detail: record a list of clients who subscribe to certain channel. On message received from mqtt-server, forward estimate result to all the clients(browser or mobile) through web socket 
+	Why: I have tried several other options before jumping to this solution. Initially, I tried to use javascript version of paho-mqtt  in browser which utilized web socket connection. But it seems that our mitt broker “neptune.usc.edu” doesn’t support web socket connection. So, I stick to mqtt default port 1883 and switch to MQTT.js, subscribe localization result using Node.js server.
 
-step5: start to test executor server by cd lczn-server, then send a post request http://127.0.0.1:5000/get-location
+lczn-client 
+	Function: visualized estimate result using react+highcharts 
+	How to use: select a channel id you wish to connect. Then browser will update itself after receiving new position.
 
-
-I haven't finish the interaction between browser anf server, so the executor-server.py can only be tested using tools like "Postman"
-
-mlb folder contains matlab code you sent to me before
-
-I collect wifi RSS in mqtt-client/collect_data folder. I measure the Wifi RSS in front of office 401-486
-
-work flow:
-Assume I have already know the location of AP and write in configuration file
-
-                                    mqtt-server 
-                                    /       \
-                           /                        \
-                    /                                       \
-                sensor                                 lczn-client
-         collect user location                         subscribe user location and save result in redis
-         
-         browser(lczn-client) <==> lczn-server(executor-server.py) read data from redis
-                
-                                              
-
-
+How to Run
+I run this application in Mac. 
+install redis: 
+	brew install redis
+install react: 
+	npm install -g create-react-app
+install numpy: 
+	pip install numpy
+install paho.mqtt: 
+	pip install paho-mqtt
+In Mac environment: open 5 terminal window
+start a redis server: 
+	$redis-server
+start mqtt-server:  
+	$cd mqtt-server  
+	$python mqtt-server.py
+start lczn-server: 
+	$cd lczn-server 
+	$npm install 
+	$npm start
+start mqtt-client  
+	$cd mqtt-client 
+	$python mqtt-client.py
+start lczn-client  
+	$cd lczn-client 
+	$npm install 
+	$npm start

@@ -9,9 +9,7 @@
 #                6
 host = "neptune.usc.edu"
 port = 1883
-
 keep_alive = 60
-
 RETRY_LIMIT = 5
 
 l = 53                     # length of the grid.(x-dimension) 53 mm

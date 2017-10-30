@@ -1,2 +1,0 @@
-15, 50 12,49 publish_time: 2017-10-08 00:05:23.022021 arrive_server_time: 2017-10-08 00:05:23.052634 back_time: 2017-10-08 00:06:53.054837 round trip delay: 0:01:30.032816
-25 40 24,40 publish_time: 2017-10-08 00:16:44.906030 arrive_server_time: 2017-10-08 00:16:44.962624 back_time: 2017-10-08 00:18:24.942985 round trip delay: 0:01:40.036955

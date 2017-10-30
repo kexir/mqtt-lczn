@@ -21,7 +21,8 @@ class App extends Component {
         console.log("inside app.js selected " + client);
         this.setState({
             clientID: client,
-            positions: null
+            positions: null,
+            delta: null
         });
         const socket = io('http://localhost:4200', { query: 'subscribe='+client});
         socket.on('message', (message) => {
