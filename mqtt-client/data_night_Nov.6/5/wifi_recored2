@@ -1,0 +1,129 @@
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+             USC Secure Wireless f0:5c:19:b9:e9:e1 -77  11      Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f8:d0:13 -81  48      N  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless a8:bd:27:55:83:00 -63  1       Y  -- NONE
+              USC Guest Wireless b4:5d:50:f6:d7:a0 -78  11      Y  -- NONE
+                         eduroam f0:5c:19:b9:e9:e2 -75  11      Y  -- WPA2(802.1x/AES/AES) 
+                       Ultrafast 00:11:50:e2:58:13 -82  6       N  -- WEP
+             USC Secure Wireless b4:5d:50:f6:d7:a1 -79  11      Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless a8:bd:27:57:7a:20 -77  11      Y  -- NONE
+                         eduroam b4:5d:50:f6:d5:c2 -90  11      Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:d5:c3 -91  11      N  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless 40:e3:d6:50:d7:30 -87  153,-1  Y  -- NONE
+             USC Secure Wireless 40:e3:d6:50:d7:31 -87  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam 40:e3:d6:50:d7:32 -88  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom 40:e3:d6:50:d7:33 -87  153     N  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:dd:10 -88  153,-1  Y  -- NONE
+             USC Secure Wireless b4:5d:50:f6:dd:11 -88  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam b4:5d:50:f6:dd:12 -87  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:dd:13 -88  153     N  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:d5:b0 -82  157,+1  Y  -- NONE
+             USC Secure Wireless b4:5d:50:f6:d5:b1 -82  157,+1  Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam b4:5d:50:f6:d5:b2 -82  157,+1  Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:d5:b3 -82  157     N  -- WPA2(PSK/AES/AES) 
+             USC Secure Wireless b4:5d:50:fa:32:11 -80  161,-1  Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam b4:5d:50:fa:32:12 -80  161,-1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless a8:bd:27:57:70:b0 -82  161,-1  Y  -- NONE
+             USC Secure Wireless a8:bd:27:57:70:b1 -82  161,-1  Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam a8:bd:27:57:70:b2 -82  161,-1  Y  -- WPA2(802.1x/AES/AES) 
+                   robotlab-5ghz a2:2a:a8:18:66:1d -80  36,+1   Y  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless a8:bd:27:55:7b:90 -87  40,-1   Y  -- NONE
+             USC Secure Wireless a8:bd:27:55:7b:91 -85  40,-1   Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam a8:bd:27:55:7b:92 -85  40,-1   Y  -- WPA2(802.1x/AES/AES) 
+             USC Secure Wireless a8:bd:27:55:83:01 -72  1       Y  -- WPA2(802.1x/AES/AES) 
+                       NETGEAR64 b0:7f:b9:80:ac:e0 -90  4       Y  US WPA2(PSK/AES/AES) 
+                   robotlab-resl 92:2a:a8:14:46:93 -78  6       Y  -- WPA2(PSK/AES/AES) 
+                   robotlab-conf 80:2a:a8:11:ea:f1 -75  1       Y  -- WPA2(PSK/AES/AES) 
+                 robotlab-2.4ghz 82:2a:a8:14:46:93 -86  6       Y  -- WPA(PSK/AES/AES) WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:d5:a0 -88  6       Y  -- NONE
+             USC Secure Wireless b4:5d:50:f6:d5:a1 -87  6       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam b4:5d:50:f6:d5:a2 -87  6       Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:d5:a3 -88  6       N  -- WPA2(PSK/AES/AES) 
+                         eduroam a8:bd:27:57:70:a2 -82  11      Y  -- WPA2(802.1x/AES/AES) 
+       robotlab-interaction-5ghz 82:2a:a8:18:66:1d -79  36,+1   Y  -- WPA2(PSK/AES/AES) 
+                         eduroam a8:bd:27:55:83:02 -70  1       Y  -- WPA2(802.1x/AES/AES) 
+            robotlab-interaction 82:2a:a8:17:66:1d -73  1       Y  -- WPA2(PSK/AES/AES) 
+                int-pen-wifi-2.4 b4:75:0e:3a:3f:89 -87  2       Y  -- WPA2(PSK/AES/AES) 
+                        robotlab 80:2a:a8:14:46:93 -77  6       Y  -- WPA2(PSK/AES/AES) 
+              HP-Print-7a-melady e0:06:e6:31:9c:7a -80  6       N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f9:c9:82 -75  6       Y  -- WPA2(802.1x/AES/AES) 
+              resl-ecomapper-lab 06:27:22:bd:3c:ec -88  11      Y  -- WPA2(PSK/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:fa:4b:63 -86  11      N  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:fa:32:10 -81  161,-1  Y  -- NONE
+              USC Guest Wireless a8:bd:27:55:83:10 -68  36,+1   Y  -- NONE
+             USC Secure Wireless a8:bd:27:55:83:11 -68  36,+1   Y  -- WPA2(802.1x/AES/AES) 
+                        robotlab 92:2a:a8:18:66:1d -83  36,+1   Y  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:fa:4a:a0 -88  1       Y  -- NONE
+             USC Secure Wireless b4:5d:50:fa:4a:a1 -87  1       Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam b4:5d:50:fa:4a:a2 -87  1       Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:fa:4a:a3 -85  1       N  -- WPA2(PSK/AES/AES) 
+                 robotlab-2.4ghz 80:2a:a8:17:66:1d -70  1       Y  -- WPA2(PSK/AES/AES) 
+                         G5_1591 04:1b:6d:c6:8a:ef -89  6       Y  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:d7:a2 -71  11      Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam b4:5d:50:f6:ea:22 -89  11      Y  -- WPA2(802.1x/AES/AES) 
+                         eduroam a8:bd:27:57:7a:22 -81  11      Y  -- WPA2(802.1x/AES/AES) 
+                   robotlab-5ghz a2:2a:a8:15:46:93 -80  124,+1  Y  -- WPA2(PSK/AES/AES) 
+                        robotlab 92:2a:a8:15:46:93 -81  124,+1  Y  -- WPA2(PSK/AES/AES) 
+              robotlab-resl-5ghz 82:2a:a8:15:46:93 -81  124,+1  Y  -- WPA2(PSK/AES/AES) 
+                    PR2_LAB_WIFI c0:c1:c0:91:35:ed -80  52,+1   Y  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:d4:02 -57  11      Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:d4:00 -60  11      Y  -- NONE
+                         eduroam b4:5d:50:fa:4b:62 -88  11      Y  -- WPA2(802.1x/AES/AES) 
+                  SENSOID-2.4GHZ 60:38:e0:be:6c:49 -50  11      N  US WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:fa:4b:60 -88  11      Y  -- NONE
+        Viterbi Mobile Classroom b4:5d:50:f6:d7:a3 -75  11      N  -- WPA2(PSK/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:d4:03 -58  11      N  -- WPA2(PSK/AES/AES) 
+             USC Secure Wireless b4:5d:50:f6:d4:01 -60  11      Y  -- WPA2(802.1x/AES/AES) 
+                          ACTLab e8:de:27:fd:02:7e -61  11      Y  US WPA2(PSK/AES/AES) 
+                     reelyActive 00:18:f8:66:2a:8a -78  6       N  -- WPA2(PSK/TKIP/TKIP) 
+                         default 00:14:a5:c0:ca:bb -73  6       N  -- NONE
+              USC Guest Wireless b4:5d:50:f9:c9:80 -76  6       Y  -- NONE
+                          dd-wrt 00:26:f2:5e:ed:34 -91  6       N  -- WPA2(PSK/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f9:c9:83 -71  6       N  -- WPA2(PSK/AES/AES) 
+                            CLMC e8:8d:28:60:c0:f1 -61  5       Y  US WPA(PSK/TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                            CLMC 6c:70:9f:df:00:b8 -69  5       Y  US WPA(PSK/TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                          qinlab 00:1d:6a:cd:98:f7 -60  3       N  -- WPA2(PSK/TKIP/TKIP) 
+                        robotlab 82:2a:a8:11:ea:f1 -88  1       Y  -- WPA2(PSK/AES/AES) 
+                 robotlab-2.4ghz 92:2a:a8:11:ea:f1 -70  1       Y  -- WPA2(PSK/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:de:23 -61  1       N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:de:22 -62  1       Y  -- WPA2(802.1x/AES/AES) 
+             USC Secure Wireless b4:5d:50:f6:de:21 -62  1       Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:de:20 -63  1       Y  -- NONE
+                        robotlab 92:2a:a8:17:66:1d -75  1       Y  -- WPA2(PSK/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f9:c9:93 -82  48      N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f9:c9:92 -81  48,-1   Y  -- WPA2(802.1x/AES/AES) 
+             USC Secure Wireless b4:5d:50:f9:c9:91 -82  48,-1   Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:f9:c9:90 -82  48,-1   Y  -- NONE
+        Viterbi Mobile Classroom b4:5d:50:f6:d7:b3 -69  44      N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:d7:b2 -69  44,+1   Y  -- WPA2(802.1x/AES/AES) 
+             USC Secure Wireless b4:5d:50:f6:d7:b1 -69  44,+1   Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:ea:33 -87  44      N  -- WPA2(PSK/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:d7:b0 -70  44,+1   Y  -- NONE
+                         eduroam a8:bd:27:55:83:12 -67  36,+1   Y  -- WPA2(802.1x/AES/AES) 
+                    SENSOID-5GHZ 60:38:e0:be:6c:4a -44  36      Y  US WPA2(PSK/AES/AES) 
+             USC Secure Wireless a8:bd:27:57:7a:31 -72  161,-1  Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:fa:32:13 -81  161     N  -- WPA2(PSK/AES/AES) 
+                         eduroam a8:bd:27:57:7a:32 -72  161,-1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless a8:bd:27:57:7a:30 -73  161,-1  Y  -- NONE
+                            CLMC e8:8d:28:60:c0:f2 -67  157,+1  Y  US WPA(PSK/TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+                       CLMC 5GHz 6c:70:9f:df:00:b9 -69  157     Y  US WPA(PSK/TKIP/TKIP) WPA2(PSK/AES,TKIP/TKIP) 
+        Viterbi Mobile Classroom b4:5d:50:f6:de:33 -61  153     N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:de:32 -61  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+        Viterbi Mobile Classroom b4:5d:50:f6:d5:d3 -85  153     N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:d5:d2 -85  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+             USC Secure Wireless b4:5d:50:f6:d5:d1 -85  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:d5:d0 -85  153,-1  Y  -- NONE
+             USC Secure Wireless b4:5d:50:f6:de:31 -61  153,-1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:de:30 -61  153,-1  Y  -- NONE
+                         eduroam b4:5d:50:fa:4b:72 -89  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:fa:4b:70 -89  149,+1  Y  -- NONE
+        Viterbi Mobile Classroom b4:5d:50:f6:d4:13 -56  149     N  -- WPA2(PSK/AES/AES) 
+                         eduroam b4:5d:50:f6:d4:12 -56  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless b4:5d:50:f6:d4:10 -56  149,+1  Y  -- NONE
+                         eduroam a8:bd:27:57:7f:b2 -81  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+             USC Secure Wireless a8:bd:27:57:7f:b1 -81  149,+1  Y  -- WPA2(802.1x/AES/AES) 
+              USC Guest Wireless a8:bd:27:57:7f:b0 -82  149,+1  Y  -- NONE
+                   robotlab-5ghz a2:2a:a8:12:ea:f1 -81  149,+1  Y  -- WPA2(PSK/AES/AES) 
+              robotlab-conf-5ghz 92:2a:a8:12:ea:f1 -82  149,+1  Y  -- WPA2(PSK/AES/AES) 
+                        robotlab 82:2a:a8:12:ea:f1 -83  149,+1  Y  -- WPA2(PSK/AES/AES) 
+             USC Secure Wireless b4:5d:50:f6:d4:11 -56  149,+1  Y  -- WPA2(802.1x/AES/AES) 

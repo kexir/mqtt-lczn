@@ -23,9 +23,6 @@ class Floor extends Component {
             chart: null,
             config: {
                 title: {
-                    text: 'Simulation of Radio Frequency Localization'
-                },
-                subtitle: {
                     text: 'Real Time Position Tracking'
                 },
                 xAxis: {
@@ -57,31 +54,31 @@ class Floor extends Component {
                 series: [{
                     name: 'Office Area1',
                     type: 'polygon',
-                    data: [[0, 0], [6, 0], [6, 48], [0, 48]],
+                    data: [[0, 0], [6, 0], [6, 48], [0, 48],[0, 0]],
                     color: ReactHighcharts.Highcharts.Color(ReactHighcharts.Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
                     enableMouseTracking: false
                 }, {
                     name: 'Office Area2',
                     type: 'polygon',
-                    data: [[10, 0], [53, 0], [53, 6], [10, 6]],
+                    data: [[10, 0], [53, 0], [53, 6], [10, 6], [10, 0]],
                     color: ReactHighcharts.Highcharts.Color(ReactHighcharts.Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
                     enableMouseTracking: false
                 }, {
                     name: 'Office Area3',
                     type: 'polygon',
-                    data: [[10, 10], [22, 10], [22, 48], [10, 48]],
+                    data: [[10, 10], [22, 10], [22, 48], [10, 48],[10, 10]],
                     color: ReactHighcharts.Highcharts.Color(ReactHighcharts.Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
                     enableMouseTracking: false
                 }, {
                     name: 'Office Area4',
                     type: 'polygon',
-                    data: [[29, 10], [53, 10], [53, 94], [29, 94]],
+                    data: [[29, 10], [53, 10], [53, 94], [29, 94], [29, 10]],
                     color: ReactHighcharts.Highcharts.Color(ReactHighcharts.Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
                     enableMouseTracking: false
                 },{
                     name: 'Office Area5',
                     type: 'polygon',
-                    data: [[0, 53], [22, 53], [22, 90],[15,90],[15,94], [0, 94]],
+                    data: [[0, 53], [22, 53], [22, 90],[15,90],[15,94], [0, 94], [0, 53]],
                     color: ReactHighcharts.Highcharts.Color(ReactHighcharts.Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
                     enableMouseTracking: false
                 }, {

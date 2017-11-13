@@ -31,7 +31,9 @@ class App extends Component {
                 positions: this.state.positions? this.state.positions.concat(position) : new Array(position),
                 delta: position.coordinate
             });
+            console.log(this.state.positions);
         });
+
     }
 
     renderPositions() {

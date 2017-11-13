@@ -13,7 +13,9 @@ class Subscribe extends Component {
                 { value: 'one', label: 'One', className: 'client' },
                 { value: 'two', label: 'Two', className: 'client' },
                 { value: 'three', label: 'Three', className: 'client' },
-                { value: 'four', label: 'Four', className: 'client' }
+                { value: 'four', label: 'Four', className: 'client' },
+                { value: 'five', label: 'Four', className: 'client' },
+                { value: 'six', label: 'Four', className: 'client' }
             ]
         };
         this.handleChange = this.handleChange.bind(this);
